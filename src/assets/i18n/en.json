@@ -1,0 +1,99 @@
+{
+
+  "Header.Item1" : "About me",
+  "Header.Item2" : "Experience",
+  "Header.Item3" : "Projects",
+  "Header.Item4" : "Contact",
+  "Header.cvBtn" : "Resume",
+  "Header.cvName": "Resume.pdf",
+
+  "Banner.Pretitle": "Hello! I'm",
+  "Banner.Description": "I have <span class='underline'>3 years of experience</span> developing clean and reusable developing applications, tools, and software solutions to digital interactions. I focus on writing clean, efficient, and maintainable code with <span class='underline'>Angular</span> at home and <span class='underline'>C++</span> at school, applying industry best practices and modern development techniques.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "Hi there! I'm Michael and I'm a third year student at the University of Waterloo. I bring over a year of internships at RBC, and love to continuously learn and develop to expand my coding skills!",
+    "I am able to continuously implement improvements in creating websites, and suggesting and executing projects to the project that I'm working on.",
+    "In my free time, I love to play video games, especially Super Smash Bros Ultimate and Cyberpunk 2077. I also love immersing myself in anime and manga, both watching and reading it!",
+    "Some of the technologies that I have trained and worked on include(but are not limited to):"
+  ],
+
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+
+    {
+      "Tab": "RBC",
+      "Title": "Full Stack Developer",
+      "Date": "May 2024 - August 2024",
+      "Description": [
+        "Developed and maintained projects and REST APIs utilizing Angular, Spring Boot, and Postman",
+        "Engineered a detailed web application with <span class='underline'>Angular</span> and <span class='underline'>Spring Boot</span> to decode JSON web tokens and provide additional infomration about RBC security tokens",
+        "Architected and implemented a token onboarding portal across multiple development environments using Redis, Docker, and Openshift"
+      ]
+    },
+    {
+      "Tab": "RBC",
+      "Title": "Junior Analyst/Associate",
+      "Date": "May 2023 - August 2023",
+      "Description": [
+        "test 1",
+        "test 2"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Quizlr",
+      "Description": "An Android app that lets you quiz yourself about Video Games, Sports, History, and the University of Waterloo!",
+      "imgs": ["assets/images/quizlr1.png",
+        "assets/images/quizlr2.png"],
+      "ghLink": "https://github.com/derzz/quizlr",
+      "Technologies": ["Kotlin", "Java", "Android Studio", "Gradle"]
+    },
+    {
+      "Title": "Typing Test",
+      "Description": "A website that can assess a user's typing speed through common and popular phrases with the option for the user to create their own sentence to type against!",
+      "imgs": ["assets/images/typing-test1.jpeg", "assets/images/typing-test2.jpeg", "assets/images/typing-test3.jpeg"],
+      "ghLink": "https://github.com/derzz/word-searcher-solver",
+      "demoLink": "https://derzz-typing-test.netlify.app/",
+      "Technologies": ["React", "Javascript", "HTML/CSS"]
+    }
+  ],
+
+
+
+
+
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [{
+    "Title": "Word Solver",
+    "Description": "A web application that can solve word searches given either a text or image word search!",
+    "ghLink": "https://github.com/derzz/word-searcher-solver",
+    "demoLink": "https://word-search-solver.vercel.app/",
+    "Technologies": ["React", "Next.js", "Tailwind CSS", "Tesseract.js"]
+  },
+    {
+      "Title": "SpooderSnek-42(Battlesnakes)",
+      "Description": "A very spoopy snake to be used on the Battlesnakes platform utilizing flood fill and A* search algorithms.",
+      "ghLink": "https://github.com/derzz/battlesnek",
+      "Technologies": ["Python", "AWS Lambda"]
+    },
+    {
+      "Title": "Chip 8 Emulator",
+      "Description": "A small emulator used to play Chip-8 games.",
+      "ghLink": "https://github.com/derzz/chip-8-rust",
+      "Technologies": ["Rust"]
+    }
+  ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "Feel free to contact me if you have any questions for me or just want to say hi!",
+  "Contact.Btn": "Say Hi👋!"
+
+
+}
