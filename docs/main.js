@@ -19,7 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [{
-  path: ':language?',
+  path: '',
   component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent
 },
 // {path: 'profile'        ,   component: ProfileComponent         , canActivate: [AuthGuard]},
