@@ -8,7 +8,7 @@
   "Header.cvName": "Resume.pdf",
 
   "Banner.Pretitle": "Hello! I'm",
-  "Banner.Description": "I have <span class='underline'>3 years of experience</span> developing clean and reusable developing applications, tools, and software solutions to digital interactions. I focus on writing clean, efficient, and maintainable code with <span class='underline'>Angular</span> at home and <span class='underline'>C++</span> at school, applying industry best practices and modern development techniques.",
+  "Banner.Description": "I have <span class='underline'>3 years of experience</span> developing clean and reusable applications, tools, and software solutions to digital interactions. I focus on writing clean, efficient, and maintainable code with <span class='underline'>Angular</span> at home and <span class='underline'>C++</span> at school, applying industry best practices and modern development techniques.",
   "Banner.ActionBtn": "Get in touch",
 
   "AboutMe.Title": "About me",
