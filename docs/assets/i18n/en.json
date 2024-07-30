@@ -25,10 +25,10 @@
 
     {
       "Tab": "RBC",
-      "Title": "Full Stack Developer",
+      "Title": "Full Stack Developer(Digital Security Team)"
       "Date": "May 2024 - August 2024",
       "Description": [
-        "Developed and maintained projects and REST APIs utilizing Angular, Spring Boot, and Postman",
+        "Developed and maintained projects and REST APIs utilizing <span class='underline'>Angular</span>, <span class='underline'>Spring Boot</span>, and <span class='underline'>Postman</span> for the <span class='bold'>Digital Security Team</span>",
         "Engineered a detailed web application with <span class='underline'>Angular</span> and <span class='underline'>Spring Boot</span> to decode JSON web tokens and provide additional infomration about RBC security tokens",
         "Architected and implemented a token onboarding portal across multiple development environments using Redis, Docker, and Openshift"
       ]
@@ -38,7 +38,7 @@
       "Title": "Junior Analyst/Associate",
       "Date": "May 2023 - August 2023",
       "Description": [
-        "Designed and implemented projects using <span class='underline'>C#</span> and Visual Studio with <span class='underline'> ASP.NET MVC 5 </span> and <span class='underline'>MS SQL</span>",
+        "Designed and implemented projects using <span class='underline'>C#</span> and Visual Studio with <span class='underline'> ASP.NET MVC 5 </span> and <span class='underline'>MS SQL</span> for the <span class='bold'>Law Group Technology Team</span>",
         "Demonstrated proficiency in data analysis and visualization through the use of <span class='underline'>Tableau</span> to extract meaningful insights from various sources",
         "Engineered and implemented automated solutions, including the development of <span class='underline'>Excel Macros</span> using <span class='underline'>Visual Basic</span>, resulting in substantial time savings and heightened efficiency"
       ]
