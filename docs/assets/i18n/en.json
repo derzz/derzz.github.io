@@ -38,8 +38,9 @@
       "Title": "Junior Analyst/Associate",
       "Date": "May 2023 - August 2023",
       "Description": [
-        "test 1",
-        "test 2"
+        "Designed and implemented projects using <span class='underline'>C#</span> and Visual Studio with <span class='underline'> ASP.NET MVC 5 </span> and <span class='underline'>MS SQL</span>",
+        "Demonstrated proficiency in data analysis and visualization through the use of <span class='underline'>Tableau</span> to extract meaningful insights from various sources",
+        "Engineered and implemented automated solutions, including the development of <span class='underline'>Excel Macros</span> using <span class='underline'>Visual Basic</span>, resulting in substantial time savings and heightened efficiency"
       ]
     }
   ],
