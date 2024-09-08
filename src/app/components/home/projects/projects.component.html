@@ -17,13 +17,6 @@
                         </ng-template>
                     </ng-container>
                 </owl-carousel-o>
-                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2==0">
-                    <div class="img-feature-proyect-box">
-                        <div class="img-container" style='width: auto;'>
-                            <img class='img-feature-proyect rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]" width='600px'>
-                        </div>
-                    </div>
-                </div>
                 <div [class.proyect-info-right]='i%2==0' [class.proyect-info-left]='i%2!=0' class="h-100" style="background-image: url('{{project.img}}');">
                     <div class="proyect-box">
                         <h4 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="feature-proyect">{{"FeatureProjects.Label" | translate}}</h4>
@@ -53,13 +46,6 @@
                         </ng-template>
                     </ng-container>
                 </owl-carousel-o>
-                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2!=0">
-                    <div class="img-feature-proyect-box">
-                        <div class="img-container" style='width: auto;'>
-                            <img class='img-feature-proyect rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]" width='600px'>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div>
             </div>
