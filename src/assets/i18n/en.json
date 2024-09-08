@@ -8,7 +8,7 @@
   "Header.cvName": "Resume.pdf",
 
   "Banner.Pretitle": "Hello! I'm",
-  "Banner.Description": "I have <span class='underline'>3 years of experience</span> developing clean and reusable applications, tools, and software solutions to digital interactions. I focus on writing clean, efficient, and maintainable code with <span class='underline'>Angular</span> at home and <span class='underline'>C++</span> at school, applying industry best practices and modern development techniques.",
+  "Banner.Description": "I have <span class='underline'>4 years of experience</span> developing clean and reusable applications, tools, and software solutions to digital interactions. I focus on writing clean, efficient, and maintainable code with <span class='underline'>Angular</span> at home and <span class='underline'>C++</span> at school, applying industry best practices and modern development techniques.",
   "Banner.ActionBtn": "Get in touch",
 
   "AboutMe.Title": "About me",
@@ -55,6 +55,15 @@
         "assets/images/quizlr2.png"],
       "ghLink": "https://github.com/derzz/quizlr",
       "Technologies": ["Kotlin", "Java", "Android Studio", "Gradle"]
+    },
+    {
+      "Title": "Super Tic Tac Toe",
+      "Description": "The ultimate and more fun twist on Tic Tac Toe!",
+      "imgs": ["assets/images/sttt0.jpeg",
+        "assets/images/sttt1.jpeg"],
+      "ghLink": "https://github.com/derzz/super-tic-tac-toe",
+      "demoLink": "https://www.michaelxie.ca/super-tic-tac-toe/",
+      "Technologies": ["Angular", "Tailwind CSS", "TypeScript"]
     },
     {
       "Title": "Typing Test",

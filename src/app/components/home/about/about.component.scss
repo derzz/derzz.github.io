@@ -63,6 +63,12 @@
 
 }
 
+.responsive-image{
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
 @media (min-width: 992px) and (max-width: 1300px){
     .about-img-container{
         margin-left: auto;
@@ -72,10 +78,6 @@
 
 @media (max-width: 500px){
     .about{
-        .about-img-container img{
-            width: 200px;
-            height: 200px;
-        }
         .about-img-container:after {
             width: 200px;
             height: 200px;
@@ -91,10 +93,6 @@
         .about-img-container {
             width: 100%;
 
-            img{
-                width: 180px;
-                height: 180px;
-            }
 
             &:after {
                 display: none;

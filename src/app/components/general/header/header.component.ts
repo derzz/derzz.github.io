@@ -35,7 +35,7 @@ export class HeaderComponent implements OnInit {
   responsiveMenuVisible: Boolean = false;
   pageYPosition: number;
   languageFormControl: UntypedFormControl= new UntypedFormControl();
-  cvName: string = "";
+  cvName: string = "Resume.pdf";
 
   constructor(
     private router: Router,
