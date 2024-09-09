@@ -69,7 +69,7 @@
       "Title": "Typing Test",
       "Description": "A website that can assess a user's typing speed through common and popular phrases with the option for the user to create their own sentence to type against!",
       "imgs": ["assets/images/typing-test1.jpeg", "assets/images/typing-test2.jpeg", "assets/images/typing-test3.jpeg"],
-      "ghLink": "https://github.com/derzz/word-searcher-solver",
+      "ghLink": "https://github.com/derzz/typing-test",
       "demoLink": "https://derzz-typing-test.netlify.app/",
       "Technologies": ["React", "Javascript", "HTML/CSS"]
     }
@@ -98,6 +98,12 @@
       "Description": "A small emulator used to play Chip-8 games.",
       "ghLink": "https://github.com/derzz/chip-8-rust",
       "Technologies": ["Rust"]
+    },
+    {
+      "Title": "2048",
+      "Description": "A implementation of the classic game 2048.",
+      "ghLink": "https://github.com/derzz/2048",
+      "Technologies": ["Java"]
     }
   ],
   "Contact.Pretitle": "What’s Next",
