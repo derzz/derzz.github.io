@@ -8,7 +8,7 @@ on:
   workflow_dispatch: # Allow manual triggering from the Actions tab
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,10 +30,20 @@ jobs:
       - name: Build Angular Project
         run: npm run build -- --output-path=dist --base-href /derzz.github.io/ # Replace <repository-name> with your repository name
 
-      # Step 5: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      # Step 5: Upload static files as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
-          publish_branch: gh-pages
+          path: dist # Path to the built static files
+
+  deploy:
+    # Only run this job on pushes to the default branch (e.g., "main")
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
