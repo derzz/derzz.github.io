@@ -1,0 +1,127 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Resume.pdf",
+
+  "Banner.Pretitle": "Hello! I'm",
+  "Banner.Description": "With over <span class='underline'>5 years of experience</span>, I enjoy creating apps and exploring how computers work. Whether it's building something new, solving problems, or just having fun with tech, I'm always excited to dive in and make things happen!",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "Hi there! I'm Michael, a third-year student at the University of Waterloo with a passion for continuously learning and growing my skills in computer science, whether at home or in a professional setting.",
+    "I enjoy tinkering with computers, whether it's diving into the architecture of old consoles or experimenting in my server's test lab to explore new possibilities.",
+    "In my free time, I love playing video games like Smash Ultimate and Balatro. I'm also passionate about learning Japanese and enjoy skateboarding as a fun way to stay active.",
+    "Some of the technologies I've worked with on include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "RBC",
+      "Title": "Full Stack Developer",
+      "Date": "January 2025 - April 2025",
+      "Description": [
+        "Developed an internal AI Assistant using <span class='underline'>Langchain</span>, <span class='underline'>RAG</span>, <span class='underline'>PgVector</span>, and semantic chunking techniques to streamline documentation access, improving response relevance and reducing latency.",
+        "Built a <span class='underline'>Spring Boot</span> sidecar service containerized with <span class='underline'>Docker</span> and deployed on <span class='underline'>OpenShift 4</span> to isolate fraud detection services, reducing duplicate code and simplifying integration for developers.",
+        "Migrated CI/CD workflows from <span class='underline'>Jenkins</span> to <span class='underline'>GitHub Actions</span>, automating test, build, and deployment pipelines to reduce manual steps and pipeline times"
+      ]
+    },
+    {
+      "Tab": "RBC",
+      "Title": "Full Stack Developer",
+      "Date": "May 2024 - August 2024",
+      "Description": [
+        "Developed and maintained projects and REST APIs utilizing <span class ='underline'>Angular</span>, <span class='underline'>Spring Boot, and Postman</span> for the <span class='underline'>Digital Development Security Team</span>",
+        "Engineered a detailed web application with <span class='underline'>Angular</span> and <span class='underline'>Spring Boot</span> to decode JSON web tokens and provide additional infomration about RBC security tokens",
+        "Architected and implemented a token onboarding portal across multiple development environments using <span class='underline'>Redis, Docker, and Openshift</span>"
+      ]
+    },
+    {
+      "Tab": "RBC",
+      "Title": "Junior Analyst/Associate",
+      "Date": "May 2023 - August 2023",
+      "Description": [
+        "Designed and implemented projects using <span class='underline'>C#</span> with <span class='underline'> ASP.NET MVC 5 </span> and <span class='underline'>MS SQL</span> for the <span class='underline'>Law Group Technology Team</span>",
+        "Demonstrated proficiency in data analysis and visualization through the use of <span class='underline'>Tableau</span> to extract meaningful insights from various sources",
+        "Engineered and implemented automated solutions, including the development of <span class='underline'>Excel Macros</span> using <span class='underline'>Visual Basic</span>, resulting in substantial time savings and heightened efficiency"
+      ]
+    }
+  ],
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "NEXie",
+      "Description": "An NES emulator built from scratch in Rust!",
+      "imgs": ["assets/images/pacman.gif", "assets/images/ic.gif"],
+      "ghLink": "https://github.com/derzz/NEXie",
+      "Technologies": ["Rust", "6502 Assembly"]
+    },
+    {
+      "Title": "Rock Paper Scissors CV",
+      "Description": "An interactive Rock Paper Scissors game where you compete against a computer player powered by computer vision (CV) for gesture recognition!",
+      "imgs": ["assets/images/rps1.png", "assets/images/rps2.png"],
+      "ghLink": "https://github.com/derzz/rpsCV",
+      "ytLink": "https://www.youtube.com/watch?v=BOzMV8aV_k8",
+      "Technologies": ["Python", "OpenCV", "Keras", "FastAPI", "Angular"]
+    },
+    {
+      "Title": "Quizlr",
+      "Description": "An Android app that lets you quiz yourself about Video Games, Sports, History, and the University of Waterloo!",
+      "imgs": ["assets/images/quizlr1.png", "assets/images/quizlr2.png"],
+      "ghLink": "https://github.com/derzz/quizlr",
+      "Technologies": ["Kotlin", "Java", "Android Studio", "Gradle"]
+    }
+  ],
+
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Super Tic Tac Toe",
+      "Description": "The ultimate and more fun twist on Tic Tac Toe!",
+      "ghLink": "https://github.com/derzz/super-tic-tac-toe",
+      "demoLink": "https://www.michaelxie.ca/super-tic-tac-toe/",
+      "Technologies": ["Angular", "Tailwind CSS", "TypeScript"]
+    },
+    {
+      "Title": "Typing Test",
+      "Description": "A website that can assess a user's typing speed through common and popular phrases with the option for the user to create their own sentence to type against!",
+      "ghLink": "https://github.com/derzz/typing-test",
+      "demoLink": "https://derzz-typing-test.netlify.app/",
+      "Technologies": ["React", "Javascript", "HTML/CSS"]
+    },
+    {
+      "Title": "Word Solver",
+      "Description": "A web application that can solve word searches given either a text or image word search!",
+      "ghLink": "https://github.com/derzz/word-searcher-solver",
+      "demoLink": "https://word-search-solver.vercel.app/",
+      "Technologies": ["React", "Next.js", "Tailwind CSS", "Tesseract.js"]
+    },
+    {
+      "Title": "SpooderSnek-42(Battlesnakes)",
+      "Description": "A very spoopy snake to be used on the Battlesnakes platform utilizing flood fill and A* search algorithms.",
+      "ghLink": "https://github.com/derzz/battlesnek",
+      "Technologies": ["Python", "AWS Lambda"]
+    },
+    {
+      "Title": "Chip 8 Emulator",
+      "Description": "A small emulator used to play Chip-8 games.",
+      "ghLink": "https://github.com/derzz/chip-8-rust",
+      "Technologies": ["Rust"]
+    },
+    {
+      "Title": "2048",
+      "Description": "A implementation of the classic game 2048.",
+      "ghLink": "https://github.com/derzz/2048",
+      "Technologies": ["Java"]
+    }
+  ],
+  "Contact.Pretitle": "What’s Next?",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "Feel free to reach out if you have any questions, want to say hi, or chat about my favorite game recommendations!",
+  "Contact.Btn": "Say Hi! (・∀・)ノ"
+}
