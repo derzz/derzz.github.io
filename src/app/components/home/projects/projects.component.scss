@@ -188,10 +188,19 @@
 }
 
 .img-container {
-    width: 600px;
-    max-height: 320px;
-    overflow: auto;
+    width: 600px; /* Set the desired width */
+    height: 320px; /* Set the desired height */
+    overflow: hidden; /* Hide any overflow */
     border-radius: 3px;
+    display: flex; /* Center the image */
+    justify-content: center;
+    align-items: center;
+}
+
+.img-feature-proyect {
+    width: 100%; /* Scale the image to fit the container's width */
+    height: 100%; /* Scale the image to fit the container's height */
+    object-fit: contain; /* Ensure the entire image is visible while maintaining aspect ratio */
 }
 
 
