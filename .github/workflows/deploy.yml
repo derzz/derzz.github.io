@@ -24,11 +24,8 @@ jobs:
         run: npm install
 
       - name: Build Angular Project
-        run: npm run build -- --output-path=dist --base-href /derzz.github.io/
+        run: npm run build -- --output-path=dist --base-href /
 
-      # Debugging Step (Optional)
-      - name: List Files in Workspace
-        run: ls -R
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
