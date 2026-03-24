@@ -12,14 +12,32 @@
 
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "Hi there! I'm Michael, a third-year student at the University of Waterloo with a passion for continuously learning and growing my skills in computer science, whether at home or in a professional setting.",
-    "I enjoy tinkering with computers, whether it's diving into the architecture of old consoles or experimenting in my server's test lab to explore new possibilities.",
-    "In my free time, I love playing video games like Smash Ultimate and Balatro. I'm also passionate about learning Japanese and enjoy skateboarding as a fun way to stay active.",
-    "Some of the technologies I've worked with on include (but are not limited to):"
+    "Hi there! I'm Michael, a fourth-year student computer science student at the University of Waterloo!",
+    "I enjoy tinkering with computers, whether it's diving into the architecture of old consoles or playing around with my server and debugging another DNS bug ( – ⤙ – )",
+    "In my free time, I love playing video games like Smash Ultimate and Balatro. I'm also passionate about learning Japanese and hopefully taking the time to finally read a book.",
+    "Some of the technologies/languages I've worked with on include (but are not limited to):"
   ],
 
-  "Experience.Title": "Experience",
+    "Experience.Title": "Experience",
   "Experience.Jobs": [
+    {
+      "Tab": "BitGo",
+      "Title": "Backend Developer",
+      "Date": "January 2026- April 2026",
+      "Description": [
+    "Architected automated workflows using <span class=underline>Temporal, Express.js, and PostgreSQL</span> to optimize the onboarding upgrade flow, resulting in a 23% increase in operational efficiency",
+    "Optimized CI/CD pipelines and testing suites using <span class='underline'>Vitest, ArgoCD, and Kubernetes</span>; leveraged <span>Grafana</span> for monitoring to achieve a 72% reduction in test execution time."
+      ]
+    },
+    {
+      "Tab": "PlayStation",
+      "Title": "Backend Developer",
+      "Date": "September 2025 - December 2025",
+      "Description": [
+          "Implemented PCI compliant data masking across three <span class='underline'>Spring Boot</span> orchestration services, reducing sensitive-field exposure and aligning cross-team services under a unified security standard.",
+   "Designed and delivered a consolidated <span class='underline'>REST API</span> endpoint supporting both payment and tax workflows, cutting redundant service calls and simplifying integration for partner teams."
+      ]
+    },
     {
       "Tab": "RBC",
       "Title": "Full Stack Developer",
@@ -55,10 +73,10 @@
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "NEXie",
+      "Title": "NEX",
       "Description": "An NES emulator built from scratch in Rust!",
       "imgs": ["assets/images/pacman.gif", "assets/images/ic.gif"],
-      "ghLink": "https://github.com/derzz/NEXie",
+      "ghLink": "https://github.com/derzz/NEX",
       "Technologies": ["Rust", "6502 Assembly"]
     },
     {
