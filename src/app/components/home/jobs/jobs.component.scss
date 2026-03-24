@@ -3,15 +3,20 @@
 
 ::ng-deep .jobs .jobs-tabs {
     display: flex;
+    align-items: flex-start;
+    gap: 24px;
 
     .tab-content{
-        margin-left: 38px;
+        margin-left: 0;
+        flex: 1;
+        min-width: 0;
     }
 
     ul{
         display: block;
-        width: 114.33px;
+        width: 150px;
         border: none;
+        flex-shrink: 0;
     }
 
     a.active{
@@ -49,7 +54,7 @@
         align-items: center;
         width: 100%;
         background-color: transparent;
-        height: 42px;
+        min-height: 42px;
         padding: 0 20px 2px;
         -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
         transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -98,14 +103,16 @@
 
     .job-description{
         position: relative;
-        padding-left: 30px;
+        padding-left: 24px;
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 17px;
+        line-height: 1.6;
 
         &:before {
             content: '▹';
-            position: relative;
+            position: absolute;
             left: 0;
+            top: 1px;
             color: $Green;
         }
     }
@@ -116,7 +123,7 @@
 @media (max-width: 768px){
     .jobs {
         .job-description{
-            padding: 0px;
+            padding-left: 22px;
         }
     }
     ::ng-deep .jobs-tabs{
@@ -127,9 +134,26 @@
         }
 
         ul {
-            display: block;
+            display: flex;
             width: 100% !important;
-            margin-bottom: 50px;
+            overflow-x: auto;
+            margin-bottom: 20px;
+
+            li {
+                border-left: none;
+                border-bottom: 2px solid $LightestNavy;
+            }
+
+            a {
+                white-space: nowrap;
+                padding: 0 14px 2px;
+            }
+
+            a.active,
+            a:hover {
+                border-color: transparent !important;
+                border-bottom: 2px solid $Green !important;
+            }
         }
     }
 }

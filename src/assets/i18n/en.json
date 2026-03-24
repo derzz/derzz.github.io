@@ -12,10 +12,10 @@
 
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "Hi there! I'm Michael, a fourth-year student computer science student at the University of Waterloo!",
+    "Hi there! I'm Michael, a fourth-year computer science student at the University of Waterloo!",
     "I enjoy tinkering with computers, whether it's diving into the architecture of old consoles or playing around with my server and debugging another DNS bug ( – ⤙ – )",
     "In my free time, I love playing video games like Smash Ultimate and Balatro. I'm also passionate about learning Japanese and hopefully taking the time to finally read a book.",
-    "Some of the technologies/languages I've worked with on include (but are not limited to):"
+    "Some of the technologies/languages I've worked with include (but are not limited to):"
   ],
 
     "Experience.Title": "Experience",
@@ -23,10 +23,10 @@
     {
       "Tab": "BitGo",
       "Title": "Backend Developer",
-      "Date": "January 2026- April 2026",
+      "Date": "January 2026 - April 2026",
       "Description": [
-    "Architected automated workflows using <span class=underline>Temporal, Express.js, and PostgreSQL</span> to optimize the onboarding upgrade flow, resulting in a 23% increase in operational efficiency",
-    "Optimized CI/CD pipelines and testing suites using <span class='underline'>Vitest, ArgoCD, and Kubernetes</span>; leveraged <span>Grafana</span> for monitoring to achieve a 72% reduction in test execution time."
+    "Architected automated workflows using <span class='underline'>Temporal, Express.js, and PostgreSQL</span> to optimize the onboarding upgrade flow, resulting in a 23% increase in operational efficiency.",
+    "Optimized CI/CD pipelines and testing suites using <span class='underline'>Vitest, ArgoCD, and Kubernetes</span>; leveraged <span class='underline'>Grafana</span> for monitoring to achieve a 72% reduction in test execution time."
       ]
     },
     {
@@ -45,7 +45,7 @@
       "Description": [
         "Developed an internal AI Assistant using <span class='underline'>Langchain</span>, <span class='underline'>RAG</span>, <span class='underline'>PgVector</span>, and semantic chunking techniques to streamline documentation access, improving response relevance and reducing latency.",
         "Built a <span class='underline'>Spring Boot</span> sidecar service containerized with <span class='underline'>Docker</span> and deployed on <span class='underline'>OpenShift 4</span> to isolate fraud detection services, reducing duplicate code and simplifying integration for developers.",
-        "Migrated CI/CD workflows from <span class='underline'>Jenkins</span> to <span class='underline'>GitHub Actions</span>, automating test, build, and deployment pipelines to reduce manual steps and pipeline times"
+        "Migrated CI/CD workflows from <span class='underline'>Jenkins</span> to <span class='underline'>GitHub Actions</span>, automating test, build, and deployment pipelines to reduce manual steps and overall pipeline duration."
       ]
     },
     {
@@ -53,9 +53,9 @@
       "Title": "Full Stack Developer",
       "Date": "May 2024 - August 2024",
       "Description": [
-        "Developed and maintained projects and REST APIs utilizing <span class ='underline'>Angular</span>, <span class='underline'>Spring Boot, and Postman</span> for the <span class='underline'>Digital Development Security Team</span>",
-        "Engineered a detailed web application with <span class='underline'>Angular</span> and <span class='underline'>Spring Boot</span> to decode JSON web tokens and provide additional infomration about RBC security tokens",
-        "Architected and implemented a token onboarding portal across multiple development environments using <span class='underline'>Redis, Docker, and Openshift</span>"
+        "Developed and maintained projects and REST APIs utilizing <span class='underline'>Angular</span>, <span class='underline'>Spring Boot</span>, and <span class='underline'>Postman</span> for the <span class='underline'>Digital Development Security Team</span>.",
+        "Engineered a detailed web application with <span class='underline'>Angular</span> and <span class='underline'>Spring Boot</span> to decode JSON web tokens and provide additional information about RBC security tokens.",
+        "Architected and implemented a token onboarding portal across multiple development environments using <span class='underline'>Redis, Docker, and Openshift</span>."
       ]
     },
     {
@@ -133,7 +133,7 @@
     },
     {
       "Title": "2048",
-      "Description": "A implementation of the classic game 2048.",
+      "Description": "An implementation of the classic game 2048.",
       "ghLink": "https://github.com/derzz/2048",
       "Technologies": ["Java"]
     }
