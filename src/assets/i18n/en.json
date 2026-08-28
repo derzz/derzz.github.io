@@ -14,12 +14,22 @@
   "AboutMe.Paragraphs": [
     "Hi there! I'm Michael, a fourth-year computer science student at the University of Waterloo!",
     "I enjoy tinkering with computers, whether it's diving into the architecture of old consoles or playing around with my server and debugging another DNS bug ( – ⤙ – )",
-    "In my free time, I love playing video games like Smash Ultimate and Balatro. I'm also passionate about learning Japanese and hopefully taking the time to finally read a book.",
+    "When I'm not coding, you can usually find me playing Smash Ultimate, Balatro, or Magic: The Gathering. I'm also passionate about learning Japanese and hopefully taking the time to finally read a book.",
     "Some of the technologies/languages I've worked with include (but are not limited to):"
   ],
 
     "Experience.Title": "Experience",
   "Experience.Jobs": [
+    {
+      "Tab": "PlayStation",
+      "Title": "Software Developer- Infrastructure",
+      "Date": "May 2026 - August 2026",
+      "Description": [
+        "Engineered a <span class='underline'>Python</span>-based configuration diff tool to compare <span class='underline'>Helm</span> templates against live JCasC configurations, reducing <span class='underline'>Jenkins</span> pipeline execution time by 88% (from 160 minutes to 20 minutes).",
+      "Spearheaded a macOS infrastructure migration analysis by instrumenting <span class='underline'>Prometheus</span> and <span class='underline'>Grafana</span> to monitor build usage, identifying a transition strategy from AWS to on-premise hardware to save $126K annually.",
+      "Automated CI/CD resource management utilizing <span class='underline'>AWS Lambda</span> and <span class='underline'>Slack</span> integrations to dynamically notify developers of memory request optimizations and automatically clean up ghost GitHub runners."
+      ]
+    },
     {
       "Tab": "BitGo",
       "Title": "Backend Developer",
